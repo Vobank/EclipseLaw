@@ -1,0 +1,12 @@
+# Базовые зависимости (Этап 1)
+PySide6-Essentials>=6.7      # оверлей
+PyYAML>=6.0                  # конфиг
+sounddevice>=0.4.6           # захват микрофона (PortAudio)
+numpy>=1.26                  # аудиобуферы
+faster-whisper>=1.0          # распознавание речи
+requests>=2.31               # клиент Ollama
+
+# Этап 2 (база законов) — ставится отдельно, когда дойдём:
+# chromadb>=0.5
+# sentence-transformers>=3.0
+# pyperclip>=1.8
